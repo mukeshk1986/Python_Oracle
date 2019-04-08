@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+</html>>
+<html>
+    <head>
+        <title>{{ title }} - Twitter</title>
+    </head>
+    <body>
+        {% for post in posts %}
+        <h1>{{ post.title }}!</h1>
+        <p>By {{ post.author }} on {{ post.posted_on }}</p>
+        {% endfor %}
+    </body>
+</html>
